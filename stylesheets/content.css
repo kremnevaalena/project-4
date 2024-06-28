@@ -46,7 +46,7 @@ a:active{
     color: white;
     position: absolute;
     /* display: block; */
-    margin: 2vw;
+    margin: 3vw;
     margin-left: 80vw;
     z-index: 2;
 }
@@ -56,7 +56,7 @@ a:active{
     font-family: 'Halvar Breitschrift', sans-serif;
     color: white;
     position: absolute;
-    margin: 2vw;
+    margin: 3vw;
     margin-left: 84vw;
     z-index: 2;
 }
@@ -66,7 +66,7 @@ a:active{
     font-family: 'Halvar Breitschrift', sans-serif;
     color: white;
     position: absolute;
-    margin: 2vw;
+    margin: 3vw;
     margin-left: 90vw;
     z-index: 2;
 }
@@ -76,34 +76,76 @@ a:active{
     font-family: 'Halvar Breitschrift', sans-serif;
     color: white;
     position: absolute;
-    margin: 2vw;
+    margin: 3vw;
     margin-left: 93.5vw;
     z-index: 2;
 }
 
-.first{
+.build1{
     width: 100vw;
     background-size: 100%;
-    position: absolute;
-    /* z-index: 1; */
+    position: relative;
+    z-index: 0;
 } 
 
-.second{
+.build2{
     width: 100vw;
     background-size: 100%;
     position: absolute;
-    /* z-index: 1; */
+    z-index: 0;
 }
 
-.tyda{
-    position: absolute;
-    margin-top: 10vw;
-    margin-left: 25vw;
+/* .building{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+} */
+
+.opisanie{
+    font-size: 15px;
+    font-family: 'Halvar Breitschrift', sans-serif;
+    color: white;
+    position: relative;
+    margin-left: 69vw;
+    margin-top: 0vw;
+   
+}
+
+.opisanie2{
+    font-size: 15px;
+    font-family: 'Halvar Breitschrift', sans-serif;
+    color: white;
+    position: relative;
+    margin-left: 69vw;
+    margin-top: 5vw;
     z-index: 3;
 }
 
+.tyda{
+    width: 10%;
+    position: absolute;
+    margin-top: 30vw;
+    margin-left: 85vw;
+    z-index: 3;
+}
+
+.suda{
+    width: 10%;
+    position: absolute;
+    margin-left: 5vw;
+    margin-top: 30vw;
+    z-index: 3;
+} 
+
+img {
+    display: block;
+    width: 100%;
+    z-index: 0;
+  }
+
+
 button{
-    font-size: 30px;
+        font-size: 25px;
       font-weight: 100;
       background-color: #000000;
       background: linear-gradient(#000000,#000000);
@@ -111,8 +153,268 @@ button{
       border-radius: 4px;
       color: #fff;
       /* display: block; */
-      min-width: 30px;
+      /* min-width: 30px;
       padding: 4px 15px;
       text-align: left;
-      margin: 2vw
+      margin: 2vw */
+     } 
+
+     .seria1{
+        font-size: 25px;
+        font-family: 'Halvar Breitschrift', sans-serif;
+        color: white;
+        position: absolute;
+        margin-left: 10vw;
+        margin-top: 6vw;
+     }
+
+     .poster1{
+        width: 20vw;
+        position: absolute;
+        margin-left: 25vw;
+        margin-top: 6vw
+    }
+
+    .poster2{
+        width: 20vw;
+        position: absolute;
+        margin-left: 50vw;
+        margin-top: 6vw
+    }
+
+    .poster3{
+        width: 20vw;
+        position: absolute;
+        margin-left: 75vw;
+        margin-top: 6vw
+    }
+
+    .seria2{
+        font-size: 25px;
+        font-family: 'Halvar Breitschrift', sans-serif;
+        color: white;
+        position: absolute;
+        margin-left: 10vw;
+        margin-top: 40vw;
+     }
+
+    .poster4{
+        width: 20vw;
+        position: absolute;
+        margin-left: 25vw;
+        margin-top: 40vw
+    }
+
+    .poster5{
+        width: 20vw;
+        position: absolute;
+        margin-left: 50vw;
+        margin-top: 40vw
+    }
+
+    .poster6{
+        width: 20vw;
+        position: absolute;
+        margin-left: 75vw;
+        margin-top: 40vw
+    }
+
+    .seria3{
+        font-size: 25px;
+        font-family: 'Halvar Breitschrift', sans-serif;
+        color: white;
+        position: absolute;
+        margin-left: 10vw;
+        margin-top: 74vw;
+     }
+
+    .poster7{
+        width: 20vw;
+        position: absolute;
+        margin-left: 25vw;
+        margin-top: 74vw
+    }
+
+    .poster8{
+        width: 20vw;
+        position: absolute;
+        margin-left: 50vw;
+        margin-top: 74vw
+    }
+
+    .poster9{
+        width: 20vw;
+        position: absolute;
+        margin-left: 75vw;
+        margin-top: 74vw
+    }
+
+    .seria4{
+        font-size: 25px;
+        font-family: 'Halvar Breitschrift', sans-serif;
+        color: white;
+        position: absolute;
+        margin-left: 10vw;
+        margin-top: 108vw;
+     }
+
+    .poster10{
+        width: 20vw;
+        position: absolute;
+        margin-left: 25vw;
+        margin-top: 108vw
+    }
+
+    .poster11{
+        width: 20vw;
+        position: absolute;
+        margin-left: 50vw;
+        margin-top: 108vw
+    }
+
+    .poster12{
+        width: 20vw;
+        position: absolute;
+        margin-left: 75vw;
+        margin-top: 108vw
+    }
+
+.vanoo{
+    width: 100vw;
+    background-size: 100%;
+    position: absolute;
+    /* z-index: 0; */
+}
+
+form > span,
+input[type="text"],
+
+input{
+    width: 52vw;
+    height: 7vw;
+    border-radius: 20vw;
+    background-color: black;
+    color: white;
+    position: absolute;
+    margin-top: 25vw;
+    margin-left: 23vw;
+    z-index: 1;
+}
+
+.tshirt{
+    width: 25vw;
+    position: absolute;
+    z-index: 1;
+    margin-left: 2vw;
+    margin-top: 10vw
+}
+
+.oversize{
+    font-size: 15px;
+    font-family: 'Halvar Breitschrift', sans-serif;
+    color: white;
+    position: absolute;
+    margin-left: 2vw;
+    margin-top: 35vw;
+}
+
+.buy1{
+    width: 130px;
+    position: absolute;
+    margin-left: 20vw;
+    margin-top: 35vw;
+    z-index: 2;
+}
+
+.notebook{
+    width: 45vw;
+    position: absolute;
+    margin-left: 28vw;
+    margin-top: 3vw
+    
+}
+
+.note{
+    font-size: 15px;
+    font-family: 'Halvar Breitschrift', sans-serif;
+    color: white;
+    position: absolute;
+    margin-left: 37vw;
+    margin-top: 35vw;
+}
+
+.buy2{
+    width: 130px;
+    position: absolute;
+    margin-left: 59vw;
+    margin-top: 35vw;
+}
+
+.bracelet{
+    width: 30vw;
+    position: absolute;
+    margin-left: 70vw;
+    margin-top: 6vw
+}
+
+.brac{
+    font-size: 15px;
+    font-family: 'Halvar Breitschrift', sans-serif;
+    color: white;
+    position: absolute;
+    margin-left: 73vw;
+    margin-top: 35vw;
+}
+
+.buy3{
+    width: 130px;
+    position: absolute;
+    margin-left: 90vw;
+    margin-top: 35vw;
+}
+
+.pen{
+    width: 27vw;
+    position: absolute;
+    margin-left: 17vw;
+    margin-top: 46vw
+}
+
+.penn{
+    font-size: 15px;
+    font-family: 'Halvar Breitschrift', sans-serif;
+    color: white;
+    position: absolute;
+    margin-left: 17vw;
+    margin-top: 73vw;
+}
+
+.buy4{
+    width: 130px;
+    position: absolute;
+    margin-left: 35vw;
+    margin-top: 73vw;
+}
+
+.book{
+    width: 30vw;
+    position: absolute;
+    margin-left: 52vw;
+    margin-top: 45vw
+}
+
+.boo{
+    font-size: 15px;
+    font-family: 'Halvar Breitschrift', sans-serif;
+    color: white;
+    position: absolute;
+    margin-left: 54vw;
+    margin-top: 73vw;
+}
+
+.buy5{
+    width: 130px;
+    position: absolute;
+    margin-left: 77vw;
+    margin-top: 73vw;
 }
