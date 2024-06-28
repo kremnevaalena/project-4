@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'HalvarBreitschrift';
+    src: url("../fonts/HalvarBreit-Md.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 , a , p {
+    font-family: 'HalvarBreitschrift';
+}

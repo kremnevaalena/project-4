@@ -1,0 +1,118 @@
+body{
+    width: 100vw;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    background: black;
+    overflow-x: hidden;
+}
+
+input[type="email"],
+
+p{
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-style: blur;
+}
+
+a:active{
+    color: rgb(232, 232, 168);
+    text-decoration: none;
+}
+
+.imgvano{
+    width: 100vw;
+    background-size: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.imglogo{
+    width: 60vw;
+    background-size: 100%;
+    position: absolute;
+    margin-top: 30vw;
+    margin-left: 25vw;
+    z-index: 1;
+}
+
+.about{
+    font-size: 15px;
+    font-family: 'Halvar Breitschrift', sans-serif;
+    color: white;
+    position: absolute;
+    /* display: block; */
+    margin: 2vw;
+    margin-left: 80vw;
+    z-index: 2;
+}
+
+.events{
+    font-size: 15px;
+    font-family: 'Halvar Breitschrift', sans-serif;
+    color: white;
+    position: absolute;
+    margin: 2vw;
+    margin-left: 84vw;
+    z-index: 2;
+}
+
+.blog{
+    font-size: 15px;
+    font-family: 'Halvar Breitschrift', sans-serif;
+    color: white;
+    position: absolute;
+    margin: 2vw;
+    margin-left: 90vw;
+    z-index: 2;
+}
+
+.shop{
+    font-size: 15px;
+    font-family: 'Halvar Breitschrift', sans-serif;
+    color: white;
+    position: absolute;
+    margin: 2vw;
+    margin-left: 93.5vw;
+    z-index: 2;
+}
+
+.first{
+    width: 100vw;
+    background-size: 100%;
+    position: absolute;
+    /* z-index: 1; */
+} 
+
+.second{
+    width: 100vw;
+    background-size: 100%;
+    position: absolute;
+    /* z-index: 1; */
+}
+
+.tyda{
+    position: absolute;
+    margin-top: 10vw;
+    margin-left: 25vw;
+    z-index: 3;
+}
+
+button{
+    font-size: 30px;
+      font-weight: 100;
+      background-color: #000000;
+      background: linear-gradient(#000000,#000000);
+      border: 1px solid rgb(0, 0, 0);
+      border-radius: 4px;
+      color: #fff;
+      /* display: block; */
+      min-width: 30px;
+      padding: 4px 15px;
+      text-align: left;
+      margin: 2vw
+}
